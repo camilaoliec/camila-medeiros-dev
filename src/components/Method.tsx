@@ -1,5 +1,10 @@
-
-const methodDatas = [
+type MethodStep = {
+    id: number;
+    number: number;
+    title: string;
+    description: string;
+}
+const methodDatas: MethodStep[] = [
     {
         id: 1,
         number: 1,

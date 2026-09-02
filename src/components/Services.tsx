@@ -1,8 +1,16 @@
 "use client"
-import { LayoutTemplate, Rocket, ShoppingCart, UserRound } from "lucide-react"
+import { LayoutTemplate, LucideIcon, Rocket, ShoppingCart, UserRound } from "lucide-react"
 import { motion, type Variants } from "framer-motion"
 
-const services = [
+type Service = {
+    id: number;
+    icon: LucideIcon;
+    title: string;
+    description: string;
+    text: string;
+}
+
+const services: Service[] = [
     {
         id: 1,
         icon: LayoutTemplate,
