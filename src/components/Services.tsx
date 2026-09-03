@@ -76,7 +76,7 @@ export default function Services() {
                             variants={cardVariants}
                         >
                             <div className="w-20 h-20 bg-vermelho rounded-full flex items-center justify-center drop-shadow-sombra">
-                                <Icon size ={32} strokeWidth={1.5} aria-hidden="true" className="text-rosa"/>
+                                <Icon size={32} strokeWidth={1.5} aria-hidden="true" className="text-rosa"/>
                             </div>
                             <h3 className="font-bobo text-3xl text-center drop-shadow-sombra">{service.title}</h3>
                             <p className="font-bigS text-2xl text-center drop-shadow-sombra">{service.description}</p>

@@ -1,5 +1,6 @@
 
 import About from "@/components/About";
+import Cta from "@/components/Cta";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Method from "@/components/Method";
@@ -14,6 +15,7 @@ export default function home(){
       <Services />
       <Method />
       <About />
+      <Cta />
     </div>
   )
 }
