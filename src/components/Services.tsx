@@ -57,7 +57,7 @@ const cardVariants: Variants = {
 
 export default function Services() {
     return(
-        <section 
+        <section id="services"
             className="border-t border-rosa w-auto mx-5 md:mx-10 mt-10">
             <h2 className="font-awe text-center text-4xl mt-25 mb-10">Services</h2>
             <motion.div 

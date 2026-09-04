@@ -3,6 +3,7 @@ import { Roboto, Big_Shoulders } from "next/font/google";
 import localFont from 'next/font/local'
 
 import "./globals.css";
+import { Toaster } from "sonner";
 
 const awe = localFont({
   src: '../fonts/AwesomeW.woff2',
@@ -43,7 +44,10 @@ export default function RootLayout({
       lang="fr" 
       className={`${roboto.variable} ${awe.variable} ${bobo.variable} ${bigS.variable} antialiased`}
     >
-      <body className="min-h-screen flex flex-col">{children}</body>
+      <body className="min-h-dvh flex flex-col">
+        {children}
+        <Toaster position="top-center" richColors />
+      </body>
     </html>
   );
 }

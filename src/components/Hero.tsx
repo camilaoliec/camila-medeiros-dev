@@ -20,7 +20,7 @@ export default function Hero() {
                     initial={{ opacity: 0, x: -50 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8, delay: 0.9, ease: "easeOut" }}
-                    className="mt-2 rounded-2xl bg-rosa px-8 py-2 text-vermelho font-bobo text-sm md:text-2xl transition-opacity duration-150 hover:opacity-60 md:w-90  inline-block text-center drop-shadow-sombra"
+                    className="mt-2 rounded-2xl bg-rosa px-8 py-2 text-vinho font-bobo text-sm md:text-2xl transition-opacity duration-150 hover:opacity-60 md:w-90  inline-block text-center drop-shadow-sombra"
                 >
                     OBTENIR UN DEVIS GRATUIT
                 </motion.a>
