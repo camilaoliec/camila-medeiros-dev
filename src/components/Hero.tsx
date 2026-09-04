@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Hero() {
     return (
-        <section className="flex flex-col lg:flex-row items-center lg:justify-between gap-15 lg:gap-16 px-6 py-10 text-center lg:text-left max-w-6xl mx-auto">
+        <section className="flex flex-col lg:flex-row items-center lg:justify-between gap-15 lg:gap-16 pt-25 pb-6 py-10 text-center lg:text-left max-w-6xl mx-auto">
             <div className="order-2 flex flex-col gap-5 items-center">  
                 <motion.h1
                     initial={{ opacity: 0, x: 50 }}

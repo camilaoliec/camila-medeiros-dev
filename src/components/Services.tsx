@@ -58,7 +58,7 @@ const cardVariants: Variants = {
 export default function Services() {
     return(
         <section id="services"
-            className="border-t border-rosa w-auto mx-5 md:mx-10 mt-10">
+            className="scroll-mt-5 border-t border-rosa w-auto mx-5 md:mx-10 mt-10">
             <h2 className="font-awe text-center text-4xl mt-25 mb-10">Services</h2>
             <motion.div 
                 className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"

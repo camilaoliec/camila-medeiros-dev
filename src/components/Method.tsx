@@ -32,7 +32,7 @@ const methodDatas: MethodStep[] = [
 ]
 export default function Method() {
     return(
-        <section id="method" className="bg-vinho mt-15 w-full p-5 flex flex-col items-center">
+        <section id="method" className="scroll-mt-10 bg-vinho mt-15 w-full p-5 flex flex-col items-center">
             <h2 className="font-awe text-center text-4xl mt-15 drop-shadow-sombra">{`De l'idée au lancement`}</h2>
             <ol className="grid grid-cols-1 p-5 gap-5  max-w-4xl items-center">
                 {methodDatas.map((el) => (

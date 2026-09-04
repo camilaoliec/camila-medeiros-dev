@@ -20,7 +20,7 @@ export default function Contact(){
         }
     }
     return(
-        <section id="contact" className="mb-20 p-5 flex flex-col items-center mx-auto drop-shadow-sombra">
+        <section id="contact" className="scroll-mt-24 mb-20 p-5 flex flex-col items-center mx-auto drop-shadow-sombra">
             <h2 className="font-awe text-center text-4xl drop-shadow-sombra mb-2">Contactez-moi</h2>
             <p className="font-roboto text-sm text-rosa/70 mb-5">* Champs obligatoires</p>
             <form 
