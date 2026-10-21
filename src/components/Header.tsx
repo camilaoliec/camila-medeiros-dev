@@ -30,7 +30,9 @@ export default function Header(){
     return(
         <header className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ${scrolled ? "bg-vinho shadow-md" : "bg-transparent"}`}>
             <div className="flex items-center justify-between px-6 md:px-15 py-4 max-w-6xl mx-auto">
-                <a href="#" className="font-awe text-3xl text-rosa pt-3">Camila Medeiros</a>
+                <a href="#" className="font-awe text-3xl text-rosa pt-3">
+                    Camila Medeiros
+                </a>
                 <nav className="hidden md:flex gap-8">
                     {navLinks.map((links) => (
                         <a 
